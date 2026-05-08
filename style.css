@@ -1,0 +1,131 @@
+/* Basis instellingen */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #F9FAFB; /* Gebroken wit */
+    color: #334E68; /* Donkerblauw/grijs voor tekst */
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header & Navigatie */
+header {
+    padding: 40px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    border: 2px solid #ADD8E6; /* Lichtblauw */
+    padding: 10px 15px;
+    color: #54A0B5;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 1.2;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #54A0B5;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Hero Sectie */
+.hero {
+    padding: 80px 0;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 48px;
+    color: #244D61;
+    margin-bottom: 20px;
+    line-height: 1.1;
+}
+
+.subtitle {
+    font-size: 24px;
+    color: #8EBDCC;
+    margin: 5px 0;
+}
+
+.btn-more {
+    display: inline-block;
+    margin-top: 30px;
+    color: #54A0B5;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid #ADD8E6;
+    padding-bottom: 5px;
+}
+
+/* Foto Styling */
+.photo-frame {
+    position: relative;
+    border: 3px solid #D1E9F0;
+    padding: 10px;
+}
+
+.photo-frame img {
+    display: block;
+    max-width: 300px;
+    filter: grayscale(100%); /* Zwart-wit effect uit het voorbeeld */
+}
+
+/* Work Sectie (Blauwe balk onderaan) */
+.work-summary {
+    background-color: #D1E9F0; /* Lichtblauwe achtergrond */
+    padding: 40px 0;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.work-summary h3 {
+    color: #54A0B5;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.item {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    color: #244D61;
+}
+
+.item strong {
+    display: block;
+    color: #54A0B5;
+    border: 1px solid #ADD8E6;
+    width: fit-content;
+    margin: 0 auto 10px;
+    padding: 2px 8px;
+    border-radius: 4px;
+}
