@@ -129,3 +129,53 @@ h1 {
     padding: 2px 8px;
     border-radius: 4px;
 }
+
+/* Zorg voor een vloeiende beweging bij het klikken op links */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navigatie link effecten */
+nav ul li a {
+    text-decoration: none;
+    color: #54A0B5;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Zachte overgang */
+}
+
+nav ul li a:hover {
+    color: #244D61; /* Wordt donkerder bij hover */
+}
+
+/* De 'More about me' knop animatie */
+.btn-more {
+    display: inline-block;
+    margin-top: 30px;
+    color: #54A0B5;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid #ADD8E6;
+    padding-bottom: 5px;
+    transition: all 0.3s ease;
+}
+
+.btn-more:hover {
+    color: #244D61;
+    border-bottom-color: #244D61;
+    padding-left: 10px; /* Schuift een klein beetje naar rechts */
+}
+
+/* De grid items in de blauwe balk klikbaar maken */
+.item {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    color: #244D61;
+    cursor: pointer; /* Toont het handje */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.item:hover {
+    transform: translateY(-5px); /* Zweef effect */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}

@@ -1,57 +1,38 @@
-<!DOCTYPE html>
-<html lang="nl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Dylan de Lange</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<!-- Navigatie links naar de ID's van de secties -->
+<nav>
+    <ul>
+        <li><a href="#about">ABOUT ME</a></li>
+        <li><a href="#work">WORK</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+    </ul>
+</nav>
 
-    <header>
-        <div class="container">
-            <div class="logo">
-                DYLAN<br>DE LANGE
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#">OVER MIJ</a></li>
-                    <li><a href="#">WERK</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                </ul>
-            </nav>
+<!-- De Hero sectie heeft nu de ID 'about' -->
+<section id="about" class="hero">
+    <div class="container hero-content">
+        <div class="text-block">
+            <h1>ID & UX Designer<br>Front-end Developer</h1>
+            <p class="subtitle">movie enthusiast</p>
+            <p class="subtitle">techno music lover</p>
+            <p class="subtitle">craft beer drinker</p>
+            <!-- Deze knop springt nu naar de portfolio sectie -->
+            <a href="#work" class="btn-more">MORE ABOUT ME</a>
         </div>
-    </header>
-
-    <section class="hero">
-        <div class="container hero-content">
-            <div class="text-block">
-                <h1>ID & UX Designer<br>Front-end Developer</h1>
-                <p class="subtitle">movie enthusiast</p>
-                <p class="subtitle">techno music lover</p>
-                <p class="subtitle">craft beer drinker</p>
-                <a href="#" class="btn-more">MORE ABOUT ME</a>
-            </div>
-            <div class="image-block">
-                <div class="photo-frame">
-                    <!-- Vervang 'portrait.jpg' met je eigen foto -->
-                    <img src="https://m.media-amazon.com/images/S/aplus-media-library-service-media/458db4e1-a23d-443b-a6b2-de07a08ccad7.__CR0,0,300,300_PT0_SX300_V1___.png" alt="Dylan de Lange">
-                </div>
+        <div class="image-block">
+            <div class="photo-frame">
+                <img src="https://via.placeholder.com/300x350" alt="Jonathan de Jong">
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <section class="work-summary">
-        <div class="container">
-            <h3>SELECTED WORK</h3>
-            <div class="grid">
-                <div class="item"><strong>Web</strong> Latest Websites</div>
-                <div class="item"><strong>UX</strong> Case Studies</div>
-                <div class="item"><strong>Dev</strong> Code Repos</div>
-                <div class="item"><strong>Art</strong> Visual Design</div>
-            </div>
-        </div>
-    </section>
+<!-- De Work sectie heeft nu de ID 'work' -->
+<section id="work" class="work-summary">
+    <!-- Code voor de grid items... -->
+</section>
 
-</body>
-</html>
+<!-- Voeg onderaan een contact sectie toe voor de link in het menu -->
+<section id="contact" style="padding: 100px 0; text-align: center;">
+    <h2>Contact Me</h2>
+    <p>Stuur een mail naar: hello@jonathandejong.com</p>
+</section>
