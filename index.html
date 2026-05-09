@@ -1,38 +1,79 @@
-<!-- Navigatie links naar de ID's van de secties -->
-<nav>
-    <ul>
-        <li><a href="#about">ABOUT ME</a></li>
-        <li><a href="#work">WORK</a></li>
-        <li><a href="#contact">CONTACT</a></li>
-    </ul>
-</nav>
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Jonathan de Jong</title>
+    <!-- Zorg dat de naam hieronder PRECIES matcht met je CSS bestand -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-<!-- De Hero sectie heeft nu de ID 'about' -->
-<section id="about" class="hero">
-    <div class="container hero-content">
-        <div class="text-block">
-            <h1>ID & UX Designer<br>Front-end Developer</h1>
-            <p class="subtitle">movie enthusiast</p>
-            <p class="subtitle">techno music lover</p>
-            <p class="subtitle">craft beer drinker</p>
-            <!-- Deze knop springt nu naar de portfolio sectie -->
-            <a href="#work" class="btn-more">MORE ABOUT ME</a>
+    <header>
+        <div class="container">
+            <div class="logo">
+                JONATHAN<br>DE JONG
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">ABOUT ME</a></li>
+                    <li><a href="#work">WORK</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="image-block">
-            <div class="photo-frame">
-                <img src="https://via.placeholder.com/300x350" alt="Jonathan de Jong">
+    </header>
+
+    <section id="about" class="hero">
+        <div class="container hero-content">
+            <div class="text-block">
+                <h1>ID & UX Designer<br>Front-end Developer</h1>
+                <p class="subtitle">movie enthusiast</p>
+                <p class="subtitle">techno music lover</p>
+                <p class="subtitle">craft beer drinker</p>
+                <!-- Deze knop linkt nu naar de 'work' sectie lager op de pagina -->
+                <a href="#work" class="btn-more">MORE ABOUT ME</a>
+            </div>
+            <div class="image-block">
+                <div class="photo-frame">
+                    <!-- Placeholder afbeelding, vervang door je eigen foto -->
+                    <img src="https://via.placeholder.com/350x400" alt="Jonathan de Jong">
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- De Work sectie heeft nu de ID 'work' -->
-<section id="work" class="work-summary">
-    <!-- Code voor de grid items... -->
-</section>
+    <!-- Deze sectie is cruciaal voor de blauwe balk uit de style.css -->
+    <section id="work" class="work-summary">
+        <div class="container">
+            <h3>SELECTED WORK</h3>
+            <div class="grid">
+                <div class="item">
+                    <strong>Web</strong> 
+                    <p>Latest Websites</p>
+                </div>
+                <div class="item">
+                    <strong>UX</strong> 
+                    <p>Case Studies</p>
+                </div>
+                <div class="item">
+                    <strong>Dev</strong> 
+                    <p>Code Repos</p>
+                </div>
+                <div class="item">
+                    <strong>Art</strong> 
+                    <p>Visual Design</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<!-- Voeg onderaan een contact sectie toe voor de link in het menu -->
-<section id="contact" style="padding: 100px 0; text-align: center;">
-    <h2>Contact Me</h2>
-    <p>Stuur een mail naar: hello@jonathandejong.com</p>
-</section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Stuur een mail naar: hello@jonathandejong.com</p>
+        </div>
+    </section>
+
+</body>
+</html>
